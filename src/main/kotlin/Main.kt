@@ -4,10 +4,15 @@
 //каждая функция соответсвует одному заданию
 
 fun main() {
+    println("Задание 1:")
     println(isPalindrome("radar"))
+    println("\nЗадание 2:")
     println(positivesSum(listOf(1, -2, 3, -4, 5)))
+    println("\nЗадание 3:")
     println(getUniqueStrings(mutableListOf("apple", "banana", "kiwi"), mutableListOf("banana", "orange", "kiwi")))
+    println("\nЗадание 4:")
     println(getFactorial(5))
+    println("\nЗадание 5:")
     println(getEvenNumbers(listOf(1, 2, 3, 4, 5, 6)))
 }
 
